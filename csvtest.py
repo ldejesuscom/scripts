@@ -4,27 +4,33 @@ import csv
 #Rows of information
 info = [
     {
-        'Nombre' : 'Sebastian',
-        'Apellido' : 'De Jesus',
-        'Edad' : 5,
+        'Nombre' : 'Eustakio',
+        'Apellido' : 'Maldonado',
+        'Edad' : 7,
         'Sexo' : 'Masculino'
     },
     {
-        'Nombre' : 'Amaia',
-        'Apellido' : 'De Jesus',
-        'Edad' : 2,
+        'Nombre' : 'Florinda',
+        'Apellido' : 'Mesa',
+        'Edad' : 4,
         'Sexo' : 'Femenino'
     },
     {
-        'Nombre' : 'Aida',
-        'Apellido' : 'Izquierdo',
+        'Nombre' : 'Petunia',
+        'Apellido' : 'Perindingo',
         'Edad' : 50,
         'Sexo' : 'Femenino'
     },
     {
-        'Nombre' : 'Victor',
-        'Apellido' : 'Paz',
-        'Edad' : 53,
+        'Nombre' : 'Marta',
+        'Apellido' : 'Jaramillo',
+        'Edad' : 46,
+        'Sexo' : 'Femenino'
+    },
+    {
+        'Nombre' : 'Pablo',
+        'Apellido' : 'Escobar',
+        'Edad' : 70,
         'Sexo' : 'Masculino'
     },
 ]
