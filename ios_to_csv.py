@@ -8,8 +8,9 @@ import getpass
 # Prompts user to input the command they wish to run against the list of IPs.
 command = input("Enter the command you want to run: ").lower()
 
+# Define function that automatically create column header out of the Rows "keys" or command output from textfsm.
 def ios_to_csv(ios_output):
-    # Automatically create column header out of the Rows "keys" or command output from textfsm.
+
     header = list(ios_output[0].keys())
 
     # Write to CSV File.  Header and Rows.
